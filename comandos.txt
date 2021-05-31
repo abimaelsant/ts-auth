@@ -1,0 +1,27 @@
+Comando para o projeto:
+
+npm init
+npm install typescript ts-node nodemon -D
+
+npx typescript --init ou tsc --init - Para criar o tsconfig
+
+npm install express
+
+npm add @types/express -D
+
+npm install typeorm reflect-metadata --save
+
+npm install pg --save
+
+sudo su postgres -c psql postgres
+
+https://alefevariani.wordpress.com/2015/08/20/mysql-e-postgresql-pelo-terminal-console-do-ubuntu/
+
+yarn typeorm migration:create -n CreateUsersTable
+yarn typeorm migration:run
+
+yarn add bcryptjs
+yarn add @types/bcryptjs
+
+yarn add jsonwebtoken
+yarn add @types/jsonwebtoken -D
